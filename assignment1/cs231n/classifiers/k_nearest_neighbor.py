@@ -19,6 +19,8 @@ class KNearestNeighbor(object):
     """
     self.X_train = X
     self.y_train = y
+    print(self.X_train.shape)
+    print(self.y_train.shape)
     
   def predict(self, X, k=1, num_loops=0):
     """
